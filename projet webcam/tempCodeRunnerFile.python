@@ -1,0 +1,5 @@
+import datetime
+
+maintenant = datetime.datetime.now()
+date_formatee = maintenant.strftime("%Y-%m-%d %H:%M:%S")
+print(f'la date est : {date_formatee}')
